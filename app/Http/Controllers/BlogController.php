@@ -10,4 +10,9 @@ class BlogController extends Controller
     {
         return view('blog_list');
     }
+
+    public function blogDetails()
+    {
+        echo "blog details";
+    }
 }

@@ -20,3 +20,5 @@ Route::get('/abcd', function () {
 Route::get('/test', 'TestController@test');
 
 Route::get('/blog-list', 'BLogController@blogList');
+
+Route::get('/blog-details', 'BLogController@blogDetails');
