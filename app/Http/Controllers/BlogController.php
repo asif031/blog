@@ -15,4 +15,9 @@ class BlogController extends Controller
     {
         echo "blog details";
     }
+
+    public function blogEdit()
+    {
+        echo "blog edit";
+    }
 }
